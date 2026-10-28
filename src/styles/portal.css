@@ -1,0 +1,65 @@
+/* Kundenportal – MAINGAU-Markendesign (Master-Prompt §3a).
+   Startwerte aus dem Login-Panel "Meine MAINGAU"; am Original nachprüfen. */
+
+@theme inline {
+  --color-mg-navy: var(--mg-navy);
+  --color-mg-blue: var(--mg-blue);
+  --color-mg-yellow: var(--mg-yellow);
+  --color-mg-yellow-soft: var(--mg-yellow-soft);
+  --color-mg-surface: var(--mg-surface);
+  --color-mg-line: var(--mg-line);
+  --color-mg-text: var(--mg-text);
+  --color-mg-muted: var(--mg-muted);
+}
+
+.theme-portal {
+  --mg-navy: #0b2a5b;
+  --mg-blue: #2b63e8;
+  --mg-yellow: #f5dc3c;
+  /* Mein Eco-Zuhause: eigene, warme Fläche – bewusst anders als das interne EcoLevel */
+  --mg-yellow-soft: #fff8d6;
+  --mg-surface: #eef3fa;
+  --mg-line: #d6deea;
+  --mg-text: #0b2a5b;
+  --mg-muted: #4a5b78;
+
+  /* shadcn-Variablen, damit vorhandene UI-Bausteine die Markenfarben übernehmen */
+  --radius: 1.5rem;
+  --card-radius: 24px;
+  --background: #ffffff;
+  --foreground: var(--mg-text);
+  --card: var(--mg-surface);
+  --card-foreground: var(--mg-text);
+  --popover: #ffffff;
+  --popover-foreground: var(--mg-text);
+  --primary: var(--mg-blue);
+  --primary-foreground: #ffffff;
+  --secondary: var(--mg-surface);
+  --secondary-foreground: var(--mg-navy);
+  --muted: var(--mg-surface);
+  --muted-foreground: var(--mg-muted);
+  --accent: var(--mg-surface);
+  --accent-foreground: var(--mg-navy);
+  --border: var(--mg-line);
+  --input: var(--mg-line);
+  --ring: var(--mg-blue);
+  --shadow-card: none;
+
+  background-color: #ffffff;
+  color: var(--mg-text);
+  font-family: var(--font-portal);
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.theme-portal :where(h1, h2, h3, h4) {
+  font-family: var(--font-portal);
+  color: var(--mg-navy);
+  letter-spacing: 0;
+}
+
+/* Typo-Skala Portal: nie unter 15 px */
+@utility type-headline { font-size: 32px; line-height: 40px; font-weight: 700; }
+@utility type-section { font-size: 22px; line-height: 28px; font-weight: 700; }
+@utility type-body { font-size: 17px; line-height: 26px; }
+@utility type-small { font-size: 15px; line-height: 22px; }

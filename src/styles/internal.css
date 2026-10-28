@@ -1,0 +1,61 @@
+/* Intern (Marketing + Service) – ruhiges Arbeitswerkzeug (Master-Prompt §3b).
+   Neutral grau/weiß, Navy nur als Akzent, eine Signalfarbe pro Status. */
+
+@theme inline {
+  --color-status-care: var(--status-care);
+  --color-status-sell: var(--status-sell);
+  --color-status-wait: var(--status-wait);
+}
+
+:root {
+  --status-care: #b42318;
+  --status-sell: #0b2a5b;
+  --status-wait: #5f6b7a;
+  --card-radius: 12px;
+}
+
+.theme-internal {
+  --radius: 0.5rem;
+  --card-radius: 8px;
+  --background: #f6f7f9;
+  --foreground: #1a2233;
+  --card: #ffffff;
+  --card-foreground: #1a2233;
+  --popover: #ffffff;
+  --popover-foreground: #1a2233;
+  --primary: #0b2a5b;
+  --primary-foreground: #ffffff;
+  --secondary: #eef0f3;
+  --secondary-foreground: #1a2233;
+  --muted: #eef0f3;
+  --muted-foreground: #5b6474;
+  --accent: #eef0f3;
+  --accent-foreground: #1a2233;
+  --success: #1e7a4c;
+  --warning: #b26b00;
+  --destructive: var(--status-care);
+  --border: #e1e4e9;
+  --input: #d5d9e0;
+  --ring: #0b2a5b;
+  --shadow-card: none;
+  --chart-1: #0b2a5b;
+  --chart-2: #5f6b7a;
+  --chart-3: #9aa3b0;
+  --chart-4: #b42318;
+  --chart-5: #c9ced6;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #1a2233;
+  --sidebar-primary: #0b2a5b;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #eef0f3;
+  --sidebar-accent-foreground: #0b2a5b;
+  --sidebar-border: #e1e4e9;
+  --sidebar-ring: #0b2a5b;
+
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 20px;
+  font-variant-numeric: tabular-nums;
+}

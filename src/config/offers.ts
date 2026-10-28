@@ -1,0 +1,20 @@
+// Kundentexte je Angebot (Du/Sie). Nur die freigegebene Empfehlung wird im Portal gezeigt.
+export const OFFER_TEXT: Record<string, { title: string; du: string; sie: string }> = {
+  "P-EN-01": { title: "Hausstrom von MAINGAU", du: "Du lädst schon mit MAINGAU Autostrom. Deinen Hausstrom kannst du auch von uns beziehen – alles aus einer Hand.", sie: "Sie laden bereits mit MAINGAU Autostrom. Ihren Hausstrom können Sie ebenfalls von uns beziehen – alles aus einer Hand." },
+  "P-EN-02": { title: "Preisgarantie verlängern", du: "Deine Preisgarantie läuft aus. Mit StromGarant sicherst du dir wieder 24 Monate planbare Kosten.", sie: "Ihre Preisgarantie läuft aus. Mit StromGarant sichern Sie sich erneut 24 Monate planbare Kosten." },
+  "P-EN-03": { title: "Strom für die Wärmepumpe", du: "Neue Heizung? Für deine Wärmepumpe gibt es mit StromWärme einen eigenen Tarif.", sie: "Neue Heizung? Für Ihre Wärmepumpe gibt es mit StromWärme einen eigenen Tarif." },
+  "P-EN-04": { title: "Gas von MAINGAU", du: "Strom und Gas aus einer Hand – mit GasAktiv.", sie: "Strom und Gas aus einer Hand – mit GasAktiv." },
+  "P-EN-05": { title: "Dynamischer Stromtarif", du: "Dein Smart Meter ist schon da: Mit dem dynamischen Tarif nutzt du Strom dann, wenn er günstig ist.", sie: "Ihr Smart Meter ist bereits installiert: Mit dem dynamischen Tarif nutzen Sie Strom dann, wenn er günstig ist." },
+  "P-MO-01": { title: "Mobilfunk von MAINGAU", du: "Energie und Handy aus einer Hand – Tarife mit 10, 30 oder 100 GB.", sie: "Energie und Mobilfunk aus einer Hand – Tarife mit 10, 30 oder 100 GB." },
+  "P-MO-02": { title: "Mehr Datenvolumen", du: "Dein Datenvolumen war zuletzt öfter aufgebraucht. Mit dem nächsten Tarif-Level surfst du ohne Drosselung weiter.", sie: "Ihr Datenvolumen war zuletzt mehrfach aufgebraucht. Mit dem nächsten Tarif-Level surfen Sie ohne Drosselung weiter." },
+  "P-MO-03": { title: "Zusatz-SIM", du: "Mehr Leute im Haushalt? Eine Zusatz-SIM gibt es für 7,99 € im Monat.", sie: "Mehrere Personen im Haushalt? Eine Zusatz-SIM erhalten Sie für 7,99 € im Monat." },
+  "P-IN-01": { title: "Internet von MAINGAU", du: "Auch fürs Internet zu Hause: DSL und Glasfaser von MAINGAU.", sie: "Auch für Ihr Internet zu Hause: DSL und Glasfaser von MAINGAU." },
+  "P-SL-01": { title: "HEMS Starter-Set", du: "Solaranlage, Auto und Wärmepumpe gemeinsam steuern – mit dem HEMS nutzt du mehr eigenen Strom.", sie: "Solaranlage, E-Auto und Wärmepumpe gemeinsam steuern – mit dem HEMS nutzen Sie mehr selbst erzeugten Strom." },
+  "P-SL-02": { title: "Speicher-Optimierung", du: "Dein Speicher lädt automatisch zum besten Zeitpunkt.", sie: "Ihr Speicher lädt automatisch zum besten Zeitpunkt." },
+  "P-SL-03": { title: "Wallbox-Integration", du: "Lade dein Auto mit deinem eigenen Solarstrom.", sie: "Laden Sie Ihr Auto mit Ihrem eigenen Solarstrom." },
+  "P-SH-01": { title: "Balkonkraftwerk 800 W", du: "Eigener Sonnenstrom vom Balkon.", sie: "Eigener Sonnenstrom vom Balkon." },
+  "P-SH-02": { title: "Wallbox 11 kW", du: "Bequem zu Hause laden – mit einer eigenen Wallbox.", sie: "Bequem zu Hause laden – mit einer eigenen Wallbox." },
+  "P-SH-03": { title: "Smarte Thermostate", du: "Heizsaison: Mit smarten Thermostaten heizt du nur, wenn du da bist.", sie: "Heizsaison: Mit smarten Thermostaten heizen Sie nur, wenn Sie zu Hause sind." },
+  "P-SH-04": { title: "Smart Plugs", du: "Finde die Stromfresser in deinem Haushalt.", sie: "Finden Sie die Stromfresser in Ihrem Haushalt." },
+  "P-AS-01": { title: "MAINGAU Autostrom", du: "Zu Hause geladen, unterwegs auch: Mit Autostrom lädst du an über 927.000 Ladepunkten in Europa.", sie: "Zu Hause geladen, unterwegs auch: Mit Autostrom laden Sie an über 927.000 Ladepunkten in Europa." },
+};

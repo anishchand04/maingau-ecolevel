@@ -1,0 +1,127 @@
+{
+ "period": {
+  "from": "2025-10-01",
+  "to": "2026-09-30"
+ },
+ "source": "Open-Meteo Historical Weather API (ERA5)",
+ "heatingDegreeDays": "G20/15",
+ "cities": {
+  "Berlin": {
+   "lat": 52.524,
+   "lon": 13.411,
+   "geocoded": "Berlin",
+   "radiationKwhM2": 1236,
+   "sunshineHoursRaw": 3073,
+   "heatingDegreeDays": 3386,
+   "days": 365
+  },
+  "Darmstadt": {
+   "lat": 49.872,
+   "lon": 8.65,
+   "geocoded": "Darmstadt",
+   "radiationKwhM2": 1334,
+   "sunshineHoursRaw": 3184,
+   "heatingDegreeDays": 2978,
+   "days": 365
+  },
+  "Frankfurt": {
+   "lat": 50.116,
+   "lon": 8.684,
+   "geocoded": "Frankfurt am Main",
+   "radiationKwhM2": 1313,
+   "sunshineHoursRaw": 3121,
+   "heatingDegreeDays": 3035,
+   "days": 365
+  },
+  "Hamburg": {
+   "lat": 53.551,
+   "lon": 9.993,
+   "geocoded": "Hamburg",
+   "radiationKwhM2": 1162,
+   "sunshineHoursRaw": 2889,
+   "heatingDegreeDays": 3341,
+   "days": 365
+  },
+  "Hanau": {
+   "lat": 50.134,
+   "lon": 8.914,
+   "geocoded": "Hanau",
+   "radiationKwhM2": 1319,
+   "sunshineHoursRaw": 3107,
+   "heatingDegreeDays": 3041,
+   "days": 365
+  },
+  "Köln": {
+   "lat": 50.933,
+   "lon": 6.95,
+   "geocoded": "Köln",
+   "radiationKwhM2": 1258,
+   "sunshineHoursRaw": 3035,
+   "heatingDegreeDays": 2820,
+   "days": 365
+  },
+  "Mainz": {
+   "lat": 49.982,
+   "lon": 8.28,
+   "geocoded": "Mainz",
+   "radiationKwhM2": 1321,
+   "sunshineHoursRaw": 3069,
+   "heatingDegreeDays": 2985,
+   "days": 365
+  },
+  "München": {
+   "lat": 48.137,
+   "lon": 11.575,
+   "geocoded": "München",
+   "radiationKwhM2": 1408,
+   "sunshineHoursRaw": 3274,
+   "heatingDegreeDays": 3474,
+   "days": 365
+  },
+  "Obertshausen": {
+   "lat": 50.071,
+   "lon": 8.851,
+   "geocoded": "Obertshausen",
+   "radiationKwhM2": 1318,
+   "sunshineHoursRaw": 3116,
+   "heatingDegreeDays": 3036,
+   "days": 365
+  },
+  "Offenbach": {
+   "lat": 50.101,
+   "lon": 8.766,
+   "geocoded": "Offenbach am Main",
+   "radiationKwhM2": 1318,
+   "sunshineHoursRaw": 3116,
+   "heatingDegreeDays": 3036,
+   "days": 365
+  },
+  "Stuttgart": {
+   "lat": 48.784,
+   "lon": 9.21,
+   "geocoded": "Stuttgart-Ost",
+   "radiationKwhM2": 1399,
+   "sunshineHoursRaw": 3292,
+   "heatingDegreeDays": 3135,
+   "days": 365
+  },
+  "Wiesbaden": {
+   "lat": 50.086,
+   "lon": 8.244,
+   "geocoded": "Wiesbaden",
+   "radiationKwhM2": 1308,
+   "sunshineHoursRaw": 3061,
+   "heatingDegreeDays": 2985,
+   "days": 365
+  },
+  "Würzburg": {
+   "lat": 49.794,
+   "lon": 9.951,
+   "geocoded": "Würzburg",
+   "radiationKwhM2": 1359,
+   "sunshineHoursRaw": 3157,
+   "heatingDegreeDays": 3378,
+   "days": 365
+  }
+ }
+}

@@ -1,0 +1,27 @@
+/* Funki-Zustände – nur CSS, Bewegung mit Zweck. Reduced motion: globale Regel in styles.css. */
+
+.funki .funki-body { transform-box: view-box; transform-origin: 32px 40px; }
+.funki .funki-halo { opacity: 0.22; transform-box: fill-box; transform-origin: center; }
+.funki .funki-wing { transform-box: fill-box; transform-origin: center; }
+
+/* idle: sanftes Schweben + ruhiges Leuchten */
+.funki--idle .funki-body { animation: funki-float 3.2s ease-in-out infinite; }
+.funki--idle .funki-halo { animation: funki-glow 3.2s ease-in-out infinite; }
+
+/* thinking: Licht pulsiert */
+.funki--thinking .funki-halo { animation: funki-pulse 0.9s ease-in-out infinite; }
+.funki--thinking .funki-light { animation: funki-blink 0.9s ease-in-out infinite; }
+
+/* happy: heller, kurzer Hüpfer */
+.funki--happy .funki-halo { opacity: 0.38; }
+.funki--happy .funki-body { animation: funki-hop 0.6s ease-out 2; }
+
+/* empathetic: gedimmt und ruhig */
+.funki--empathetic .funki-halo { opacity: 0.1; }
+.funki--empathetic .funki-light { opacity: 0.7; }
+
+@keyframes funki-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+@keyframes funki-glow { 0%, 100% { opacity: 0.18; } 50% { opacity: 0.3; } }
+@keyframes funki-pulse { 0%, 100% { opacity: 0.12; transform: scale(0.92); } 50% { opacity: 0.4; transform: scale(1.06); } }
+@keyframes funki-blink { 0%, 100% { opacity: 0.75; } 50% { opacity: 1; } }
+@keyframes funki-hop { 0% { transform: translateY(0); } 40% { transform: translateY(-6px); } 100% { transform: translateY(0); } }
